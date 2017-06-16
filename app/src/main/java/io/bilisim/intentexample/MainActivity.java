@@ -18,10 +18,8 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent ıntent = new Intent(MainActivity.this,SecondActivity.class);
-                Intent ıntent1 = new Intent();
                 String web = "bilism.io";
                 ıntent.putExtra("web",web);
-                ıntent.put
                 startActivity(ıntent);
             }
         });
